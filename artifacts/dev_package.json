@@ -1,0 +1,82 @@
+{
+	"id": "4a88796a-e5a7-ef11-88cf-000d3ab842f6",
+	"createdAt": "2024-11-21T08:48:54.496Z",
+	"createdBy": "support@fr8.no",
+	"git": {
+		"remote": "https://github.com/OleAndreHaugen/debugredis",
+		"branch": "master"
+	},
+	"name": "debugredis",
+	"description": null,
+	"ver": "24.11.21.0853",
+	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": false,
+	"roles": [],
+	"apps": [
+		{
+			"id": "8abea07f-e4a7-ef11-88cf-000d3ab842f6",
+			"application": "demo_redis_flow",
+			"title": "Debug Redis",
+			"description": "Debug Redis"
+		}
+	],
+	"api": [
+		{
+			"id": "92eab3be-e6a7-ef11-88cf-000d3ab842f6",
+			"name": "debugredis",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [
+		{
+			"id": "1ac4e62c-e6a7-ef11-88cf-000d3ab842f6",
+			"name": "Start",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "18c4e62c-e6a7-ef11-88cf-000d3ab842f6",
+			"name": "debugredis",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"tile_layout": [],
+	"category": [],
+	"tilegroup_layout": [],
+	"launchpad": [],
+	"launchpad_layout": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [
+		{
+			"id": "aa65663b-e7a7-ef11-88cf-000d3ab842f6",
+			"name": "chat_update",
+			"description": null
+		}
+	],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": [],
+	"theme_ui5": []
+}

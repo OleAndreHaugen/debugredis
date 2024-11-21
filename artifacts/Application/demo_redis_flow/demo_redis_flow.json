@@ -1,0 +1,339 @@
+{
+	"id": "8abea07f-e4a7-ef11-88cf-000d3ab842f6",
+	"createdAt": "2024-11-21T08:42:11.743Z",
+	"createdBy": "support@fr8.no",
+	"objects": [
+		{
+			"fieldNo": "44026327-6044-430f-94f2-43c0132b99f9",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "028764cb-3d92-4d61-c6ee-7349c915d99c",
+					"fieldName": "Page",
+					"fieldParent": "44026327-6044-430f-94f2-43c0132b99f9",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Redis Debug App",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "4581bf06-18ad-44ae-98e4-ddaa897f7a3b",
+							"fieldName": "TabData",
+							"fieldParent": "028764cb-3d92-4d61-c6ee-7349c915d99c",
+							"fieldType": "sap.m.Table",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Array",
+							"bindingType": "h",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "sticky",
+									"grouping": "Properties",
+									"value": "[\"ColumnHeaders\",\"HeaderToolbar\"]",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "feea208c-b0e3-4297-a303-aebc63bdcfc6",
+									"fieldName": "colTabDataindex",
+									"fieldParent": "4581bf06-18ad-44ae-98e4-ddaa897f7a3b",
+									"fieldType": "sap.m.Column",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "119061d6-014d-4309-d4f1-6d85b6204b09",
+											"fieldName": "colHTabDataindex",
+											"fieldParent": "feea208c-b0e3-4297-a303-aebc63bdcfc6",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Index",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "3f7d2c2b-c717-4595-c8c5-fbcac998f858",
+									"fieldName": "colTabDatacontent",
+									"fieldParent": "4581bf06-18ad-44ae-98e4-ddaa897f7a3b",
+									"fieldType": "sap.m.Column",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "53f472d1-f00d-487e-bd81-1e5335a4e43a",
+											"fieldName": "colHTabDatacontent",
+											"fieldParent": "3f7d2c2b-c717-4595-c8c5-fbcac998f858",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Content",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "55337876-c061-4823-c5c2-eb967ea77d77",
+									"fieldName": "colItemTabData",
+									"fieldParent": "4581bf06-18ad-44ae-98e4-ddaa897f7a3b",
+									"fieldType": "sap.m.ColumnListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "28973dad-8fec-4b54-852d-b22ba24b3440",
+											"fieldName": "txtTabDataindex",
+											"fieldParent": "55337876-c061-4823-c5c2-eb967ea77d77",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{index}",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "98a2a88b-8847-4f81-c294-cc099f4e177d",
+											"fieldName": "txtTabDatacontent",
+											"fieldParent": "55337876-c061-4823-c5c2-eb967ea77d77",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{content}",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "dce9679a-c42c-4a83-c858-d856867eb7eb",
+							"fieldName": "oBarFooter",
+							"fieldParent": "028764cb-3d92-4d61-c6ee-7349c915d99c",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setFooter",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "2d2b69a6-0b23-43a9-84ee-63f7a7adfd96",
+									"fieldName": "BarContent",
+									"fieldParent": "dce9679a-c42c-4a83-c858-d856867eb7eb",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentRight",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "928110a5-2619-4e47-fbcf-2fb2c7f68dae",
+											"fieldName": "ButStart",
+											"fieldParent": "2d2b69a6-0b23-43a9-84ee-63f7a7adfd96",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/ButStart/press.js",
+													"language": "javascript",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Start Test",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "fa5a7307-b982-4f9e-8e3d-c8721390c2f8",
+					"fieldName": "Init",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Init.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "8bf86e80-b10e-43bf-e15e-a75b04fb66b3",
+					"fieldName": "Start",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "92eab3be-e6a7-ef11-88cf-000d3ab842f6",
+					"restOperation": "792d45a0-3951-4fc7-9cde-869336e7edf9",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.11.21.0904",
+	"application": "demo_redis_flow",
+	"title": "Debug Redis",
+	"description": "Debug Redis",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "4a88796a-e5a7-ef11-88cf-000d3ab842f6",
+	"apis": [
+		{
+			"id": "92eab3be-e6a7-ef11-88cf-000d3ab842f6",
+			"name": "debugredis",
+			"ver": "24.11.21.0858"
+		}
+	]
+}

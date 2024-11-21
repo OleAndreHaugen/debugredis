@@ -1,0 +1,15 @@
+{
+	"id": "aa65663b-e7a7-ef11-88cf-000d3ab842f6",
+	"createdAt": "2024-11-21T09:01:53.693Z",
+	"createdBy": "support@fr8.no",
+	"name": "chat_update",
+	"description": null,
+	"eventAction": "AppEvent",
+	"scriptId": null,
+	"jobId": null,
+	"workflowId": null,
+	"package": "4a88796a-e5a7-ef11-88cf-000d3ab842f6",
+	"script": null,
+	"job": null,
+	"workflow": null
+}
